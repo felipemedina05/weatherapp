@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 
 import "./App.css";
 import Card from "./components/Card/Card";
+import Unidades from "./components/Unidades/Unidades";
 
 function App() {
   const appikey = "7753563720f9768f952766c255e6ce65";
-  const [city,setCity] = useState("lima")
+  const [city,setCity] = useState("quito")
   const [datos, setDatos] = useState(null);
   const [datoshora, setDatoshora] = useState(null);
 
@@ -17,12 +18,16 @@ function App() {
       const data = await res.json();
       
       setDatos(data);
+    
     };
+
+    
+
 
     getDatos();
   }, []);
   useEffect(() => {
-    const getDatos = async () => {
+    const getDatosh = async () => {
       const res = await fetch(
         `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${appikey}`
       );
@@ -31,15 +36,21 @@ function App() {
       setDatoshora(datahora);
     };
 
-    getDatos();
+    getDatosh();
   }, []);
 
  
 
 
   return <>
-  {datos && <Card datos={datos}  datoshora={datoshora} ></Card>}
+  <div className="contenedor">
+  
+  <div>{datos && (<Card datos={datos}> </Card>)}</div>
+  <div>{datoshora && (<Unidades datoshora={datoshora}> </Unidades>)}</div>
 
+  </div>
+  
+  
   </>;
 }
 
