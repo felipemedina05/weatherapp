@@ -43,10 +43,10 @@ function App() {
 
 
   return <>
-  <div className="contenedor">
+  <div className="principal">
   
-  <div>{datos && (<Card datos={datos}> </Card>)}</div>
-  <div>{datoshora && (<Unidades datoshora={datoshora}> </Unidades>)}</div>
+  <div className="card">{datos && (<Card datos={datos}> </Card>)}</div>
+  <div className="Unidades">{datoshora && (<Unidades datoshora={datoshora}> </Unidades>)}</div>
 
   </div>
   

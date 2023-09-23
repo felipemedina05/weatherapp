@@ -21,7 +21,7 @@ function Fecha() {
     
     return (
     <>
-    <p>Today . {formattedDate}</p>
+    <p>Today - {formattedDate}</p>
     </> )
   }
   

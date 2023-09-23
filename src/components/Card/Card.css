@@ -1,0 +1,85 @@
+.contenedor {
+   display: flex;
+   flex-direction: column;
+    background-color:#1E213A ;
+    width:     459px;
+    height: 1023px;
+    font-family: 'Raleway';
+    
+    
+}
+.botones{
+    display: flex;
+    
+}
+#buscar{
+    width: 300px;
+    Height :40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 53px 46px 0px 60px;
+    
+    background-color: #6E707A;
+    color: #E7E7EB;
+}
+#gps{
+    width: 40px;
+    height: 40px;
+    margin: 53px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #6E707A;
+    color: #E7E7EB;
+    border-radius: 100%;
+}
+
+
+.imagen ,img{
+width: 202px ;
+margin: 10px 80px 20px 60px ;
+justify-content: center;
+
+
+}
+.gradosC{
+
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 30px;
+    padding :2px;
+    color:#A09FB1;
+    
+}
+#temperatura {
+      
+    font-size: 100px;
+    margin: 0;
+    color: #E7E7EB;
+    
+        
+    }
+
+    .clima{
+        display: flex;
+        margin: 50px 0px 10px 170px ;
+        font-size: 36px;
+        
+    }
+
+ .fecha{
+    display: flex;
+    margin: 50px 0px 1px 130px ;
+    font-size: 18px;
+    color: #A09FB1;
+ }
+ .ciudad{
+    display: flex;
+    margin: 50px 0px 1px 180px ;
+    font-size: 18px;
+    color: #A09FB1;
+    
+ }
