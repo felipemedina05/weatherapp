@@ -2,13 +2,18 @@ import { useEffect, useState } from "react";
 
 import "./App.css";
 import Card from "./components/Card/Card";
-import Unidades from "./components/Unidades/Unidades";
+import Days from "./components/Days/Days";
 
 function App() {
   const appikey = "7753563720f9768f952766c255e6ce65";
   const [city,setCity] = useState("quito")
   const [datos, setDatos] = useState(null);
   const [datoshora, setDatoshora] = useState(null);
+
+  function kelvinToCelsius(kelvin) {
+    const celsius = kelvin - 273.15;
+    return celsius;
+  }
 
   useEffect(() => {
     const getDatos = async () => {
@@ -46,7 +51,7 @@ function App() {
   <div className="principal">
   
   <div className="card">{datos && (<Card datos={datos}> </Card>)}</div>
-  <div className="Unidades">{datoshora && (<Unidades datoshora={datoshora}> </Unidades>)}</div>
+  <div className="Unidades">{datoshora && (<Days datoshora={datoshora} fncelcius={kelvinToCelsius}> </Days>)}</div>
 
   </div>
   

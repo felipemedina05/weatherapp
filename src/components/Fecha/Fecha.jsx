@@ -13,15 +13,13 @@ function Fecha() {
     const day = currentDate.getDate();
     const monthName = months[currentDate.getMonth()];
     const dayOfWeekName = daysOfWeek[currentDate.getDay()];
-
+ 
     // Formatear la fecha en formato de letras
-    const formattedDate = `${dayOfWeekName} ${day} ${monthName}`;
-
-      
-    
+    const today = `${dayOfWeekName} ${day} ${monthName}`;
+   
     return (
     <>
-    <p>Today - {formattedDate}</p>
+    <p>Today - {today}</p>
     </> )
   }
   
