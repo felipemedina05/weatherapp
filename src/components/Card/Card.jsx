@@ -19,7 +19,7 @@ function Card({ datos,handleclik,handlesubmit }) {
         <div className=" botones">
          <Modal handlesubmit={handlesubmit} handleclik={handleclik} ></Modal>
           
-          <button id="gps"><i class="bi bi-crosshair2"></i></button>
+          <button id="gps"><i className="bi bi-crosshair2"></i></button>
         
         <div className="imagen">
           <img src={url} alt="imagen " />
@@ -36,7 +36,7 @@ function Card({ datos,handleclik,handlesubmit }) {
         </div>
 
         <div className="ciudad">
-        <p><i class="bi bi-geo-alt-fill"></i>{datos.name}</p>
+        <p><i className="bi bi-geo-alt-fill"></i>{datos.name}</p>
         </div>
         </div>
       </div>
