@@ -19,7 +19,7 @@ function Modal({handleclik,handlesubmit}) {
         Set Location
       </Button>
 
-      <Offcanvas  show={show} onHide={handleClose}>
+      <Offcanvas className="modal" show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton >
           <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>

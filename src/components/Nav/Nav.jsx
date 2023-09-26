@@ -9,12 +9,12 @@ function Nav({handlesubmit,handleclik}) {
         <form onSubmit={handlesubmit}>
             
             <input type="text" placeholder="Search Location" />
-            <button type="submit">Search</button>
+            <button className="submit" type="submit">Search</button>
         </form>
 
-        <button onClick={handleclik}>London</button>
-        <button onClick={handleclik}>Barcelona</button>
-        <button onClick={handleclik}>Long Beach</button>
+        <button className="button" onClick={handleclik}>London</button>
+        <button className="button"onClick={handleclik}>Barcelona</button>
+        <button className="button"onClick={handleclik}>Long Beach</button>
     </nav>
     </> )
   }
