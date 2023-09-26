@@ -8,7 +8,7 @@ import Unidades from "./components/Unidades/Unidades";
 
 function App() {
   const appikey = "7753563720f9768f952766c255e6ce65";
-  const [city, setCity] = useState("quito");
+  const [city, setCity] = useState("pasto");
   const [datos, setDatos] = useState(null);
   const [datoshora, setDatoshora] = useState(null);
 
@@ -35,7 +35,7 @@ function App() {
         `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${appikey}`
       );
       const datahora = await res.json();
-
+        console.log(datahora)
       setDatoshora(datahora);
     };
 
