@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav button{
+    background-color: #1E213A;
+    color: #E7E7EB;
+text-align: start;
+}

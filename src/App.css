@@ -1,44 +1,26 @@
- body{
-  font-family: 'Raleway';
-  background-color:#100E1D;
+* {
+  
+  color: #e7e7eb;
+  font-family: Raleway;
+  
   
 }
- .principal{
-  
-  display: flex;
-  flex-direction:row;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #100E1D;
+
+body{
+    background-color: #100E1D;
+    width: 1440px;
+    height: 1023px;
+    
 }
 
 
 
-.card{
-  display: flex;
-  
+h2 {
+
+    margin-left: 10% ;
+    
 }
 
-.days{
-  
-  display: flex;
-  padding: 10px;
-  margin: 0 auto;
-  width: 100%;
-  height: 20rem;
-  
-}
-.days >{
 
-}
-.unidades{
-  
-  background-color:#100E1D ;
- /*  position: absolute;
-  
-  top: 30%;
-  left: 19%;
-  right: 0;
-  margin: 0 auto;
-  width: fit-content; */
-  
-}
+
+
