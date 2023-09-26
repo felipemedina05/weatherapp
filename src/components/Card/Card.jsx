@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 import Fecha from "../Fecha/Fecha";
 import "./Card.css";
 import Modal from "../Modal/Modal";
