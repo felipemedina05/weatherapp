@@ -1,0 +1,72 @@
+
+
+.contenedor{
+    background-color:#1E213A;
+    width: 459px;
+    height: 1023px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor .botones  #gps {
+    background-color: #6E707A;
+    border-radius: 100%;
+    justify-content: space-evenly;
+    
+    margin-top: 30px;
+    
+}
+
+
+.contenedor .imagen{
+    background-color:#1E213A;
+    width: 202px;
+    height: 234px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    margin-top: 191px;
+    margin-bottom: 1px;
+}
+
+.contenedor .gradosC{
+    background-color:#1E213A;
+    width: 202px;
+     display: flex;
+    flex-direction: row;
+    margin-left: 80%;
+    font-size: 48px;
+    
+}
+
+.contenedor .clima{
+    background-color:#1E213A;
+    width: 202px;
+     display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+    font-size: 36px;
+    
+}
+#temperatura{
+    font-size: 68px;
+}
+.contenedor .fecha{
+    background-color:#1E213A;
+    width: 202px;
+     display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+    
+}
+.contenedor .ciudad{
+    background-color:#1E213A;
+    width: 202px;
+     display: flex;
+    flex-direction: row;
+    margin-left: 90%;
+    
+}

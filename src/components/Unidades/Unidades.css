@@ -1,0 +1,44 @@
+.unidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 981px; /* Ajusta el ancho del contenedor según tus necesidades */
+  margin: 10%; /* Centra el contenedor horizontalmente */
+  text-align: center;
+  background-color: #100e1d;
+}
+
+.unidades #wind {
+  width: 328px;
+  height: 204px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #1e213a;
+  text-align: center;
+}
+
+.unidades #visibility {
+    width: 328px;
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1e213a;
+    text-align: center;
+}
+.unidades #airpresure {
+    width: 328px;
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1e213a;
+    text-align: center;
+}
+.unidades #humidity {
+    width: 328px;
+    height: 204px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1e213a;
+    text-align: center;
+}

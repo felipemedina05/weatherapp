@@ -1,0 +1,30 @@
+.days {
+  width: 981px;
+  display: flex;
+  background-color: #100E1D;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%; 
+  text-align: center;
+  background-color: #100e1d;
+}
+
+.days  .tomorrow {
+    width: 120px;
+    height: 177px  ;
+    display: flex;
+    background-color: #1E213A;
+    
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .days  .tomorrow img {
+    width: 56.44px;
+    height: 62px  ;
+    margin-left: 30%;
+    
+  }
+  
