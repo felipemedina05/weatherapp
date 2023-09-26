@@ -2,8 +2,7 @@
    display: flex;
    flex-direction: column;
     background-color:#1E213A ;
-    width:     459px;
-    height: 1023px;
+    
     font-family: 'Raleway';
     
     
@@ -37,7 +36,7 @@
 }
 
 
-.imagen ,img{
+.imagen > img{
 width: 202px ;
 margin: 10px 80px 20px 60px ;
 justify-content: center;

@@ -1,0 +1,20 @@
+.days{
+    width: 100%;
+}
+.days > .tomorrow{
+    
+    width: 120px;
+    height: 177px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #1E213A;
+    
+}   
+
+.days > .tomorrow > img{
+    width: 56.44px;
+    height: 62px;
+}   

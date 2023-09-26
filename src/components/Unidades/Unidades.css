@@ -1,0 +1,68 @@
+.unidades{
+    
+    gap: 2;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+    margin: 2px;
+    
+}
+
+#wind{
+    border: solid 1px #1E213A;
+    background-color: #1E213A;
+    gap: 2;
+    display:flexbox;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+    margin: 2px;
+    height: 204px;
+    width: 328px;
+
+}
+
+#humidity{
+    border: solid 1px #1E213A;
+    background-color: #1E213A;
+    gap: 2;
+    display:flexbox;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+    margin: 2px;
+    height: 204px;
+    width: 328px;
+
+}
+
+#airpresure{
+    border: solid 1px #1E213A;
+    background-color: #1E213A;
+    gap: 2;
+    display:flexbox;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+    margin: 2px;
+    height: 204px;
+    width: 328px;
+
+}
+
+#visibility{
+    border: solid 1px #1E213A;
+    background-color: #1E213A;
+    gap: 2;
+    display:flexbox;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+    margin: 2px;
+    height: 204px;
+    width: 328px;
+
+}

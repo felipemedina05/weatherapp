@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Nav from '../Nav/Nav';
 
-function Modal() {
+function Modal({handleclik,handlesubmit}) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -11,15 +12,15 @@ function Modal() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Toggle static offcanvas
+        Launch
       </Button>
 
-      <Offcanvas show={show} onHide={handleClose} backdrop="static">
+      <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Offcanvas</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          I will not close if you click outside of me.
+          <Nav handleclik={handleclik} handlesubmit={handlesubmit}></Nav>
         </Offcanvas.Body>
       </Offcanvas>
     </>
