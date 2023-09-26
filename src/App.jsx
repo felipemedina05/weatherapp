@@ -4,11 +4,10 @@ import "./App.css";
 import Card from "./components/Card/Card";
 import Days from "./components/Days/Days";
 import Unidades from "./components/Unidades/Unidades";
-import Nav from "./components/Nav/Nav";
-import Modal from "./components/Modal/Modal";
+
 
 function App() {
-  const appikey = "7753563720f9768f952766c255e6ce65";
+  const appikey = "648138367b37831a62287b51f1de1438";
   const [city, setCity] = useState("quito");
   const [datos, setDatos] = useState(null);
   const [datoshora, setDatoshora] = useState(null);
