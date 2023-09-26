@@ -43,6 +43,7 @@ function Days({ datoshora, fncelcius }) {
   const url1 = `https://openweathermap.org/img/w/${datoshora.list[1].weather[0].icon}.png`;
   const url2 = `https://openweathermap.org/img/w/${datoshora.list[2].weather[0].icon}.png`;
   const url3 = `https://openweathermap.org/img/w/${datoshora.list[3].weather[0].icon}.png`;
+  const url4 = `https://openweathermap.org/img/w/${datoshora.list[4].weather[0].icon}.png`;
 
   const tempMintd = datoshora.list[0].main.temp_min;
   const tempMaxtd = datoshora.list[0].main.temp_max;
@@ -52,6 +53,8 @@ function Days({ datoshora, fncelcius }) {
   const tempMaxd4 = datoshora.list[2].main.temp_max;
   const tempMind5 = datoshora.list[3].main.temp_min;
   const tempMaxd5 = datoshora.list[3].main.temp_max;
+  const tempMind6 = datoshora.list[4].main.temp_min;
+  const tempMaxd6 = datoshora.list[4].main.temp_max;
 
   return (
     <>
@@ -83,6 +86,13 @@ function Days({ datoshora, fncelcius }) {
           <img src={url3} alt="clima" />
           <p>{fncelcius(tempMind5).toFixed()}°C</p>
           <p>{fncelcius(tempMaxd5).toFixed()}°C</p>
+          <p></p>
+        </div>
+        <div className="tomorrow">
+          <p>{tday5}</p>
+          <img src={url4} alt="clima" />
+          <p>{fncelcius(tempMind6).toFixed()}°C</p>
+          <p>{fncelcius(tempMaxd6).toFixed()}°C</p>
           <p></p>
         </div>
       </div>

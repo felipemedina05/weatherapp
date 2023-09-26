@@ -1,11 +1,11 @@
 
-
+import "./Nav.css"
 function Nav({handlesubmit,handleclik}) {
     
    
     return (
     <>
-    <nav>
+    <nav className="nav">
         <form onSubmit={handlesubmit}>
             
             <input type="text" placeholder="Search Location" />

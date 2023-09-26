@@ -6,7 +6,7 @@ import Modal from "../Modal/Modal";
 function Card({ datos,handleclik,handlesubmit }) {
   const gradosk = datos.main.temp;
   const gradosC = gradosk - 273;
-  const gradosF = ((gradosk - 273.15) * 9) / 5 + 32;
+  //const gradosF = ((gradosk - 273.15) * 9) / 5 + 32;
 
 
   const url = `https://openweathermap.org/img/w/${datos.weather[0].icon}.png`;
@@ -20,7 +20,7 @@ function Card({ datos,handleclik,handlesubmit }) {
          <Modal handlesubmit={handlesubmit} handleclik={handleclik} ></Modal>
           
           <button id="gps"><i class="bi bi-crosshair2"></i></button>
-        </div>
+        
         <div className="imagen">
           <img src={url} alt="imagen " />
         </div>
@@ -37,6 +37,7 @@ function Card({ datos,handleclik,handlesubmit }) {
 
         <div className="ciudad">
         <p><i class="bi bi-geo-alt-fill"></i>{datos.name}</p>
+        </div>
         </div>
       </div>
     </>

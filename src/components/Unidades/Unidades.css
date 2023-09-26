@@ -1,68 +1,44 @@
-.unidades{
-    
-    gap: 2;
-    display: flex;
-    
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-    padding: 1rem;
-    margin: 2px;
-    
+.unidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 981px; /* Ajusta el ancho del contenedor según tus necesidades */
+  margin: 10%; /* Centra el contenedor horizontalmente */
+  text-align: center;
+  background-color: #100e1d;
 }
 
-#wind{
-    border: solid 1px #1E213A;
-    background-color: #1E213A;
-    gap: 2;
-    display:flexbox;
-    justify-content: space-between;
-    text-align: center;
-    padding: 1rem;
-    margin: 2px;
-    height: 204px;
-    width: 328px;
-
+.unidades #wind {
+  width: 328px;
+  height: 204px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #1e213a;
+  text-align: center;
 }
 
-#humidity{
-    border: solid 1px #1E213A;
-    background-color: #1E213A;
-    gap: 2;
-    display:flexbox;
-    justify-content: space-between;
-    text-align: center;
-    padding: 1rem;
-    margin: 2px;
-    height: 204px;
+.unidades #visibility {
     width: 328px;
-
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1e213a;
+    text-align: center;
 }
-
-#airpresure{
-    border: solid 1px #1E213A;
-    background-color: #1E213A;
-    gap: 2;
-    display:flexbox;
-    justify-content: space-between;
-    text-align: center;
-    padding: 1rem;
-    margin: 2px;
-    height: 204px;
+.unidades #airpresure {
     width: 328px;
-
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1e213a;
+    text-align: center;
 }
-
-#visibility{
-    border: solid 1px #1E213A;
-    background-color: #1E213A;
-    gap: 2;
-    display:flexbox;
-    justify-content: space-between;
-    text-align: center;
-    padding: 1rem;
-    margin: 2px;
-    height: 204px;
+.unidades #humidity {
     width: 328px;
-
+    height: 204px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1e213a;
+    text-align: center;
 }
