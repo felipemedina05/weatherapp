@@ -7,7 +7,7 @@ import Unidades from "./components/Unidades/Unidades";
 
 
 function App() {
-  const appikey = "648138367b37831a62287b51f1de1438";
+  const appikey = "7753563720f9768f952766c255e6ce65";
   const [city, setCity] = useState("quito");
   const [datos, setDatos] = useState(null);
   const [datoshora, setDatoshora] = useState(null);
