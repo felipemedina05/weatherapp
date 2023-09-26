@@ -8,7 +8,7 @@ function Visibility({ datoshora }) {
     <>
       <div>
         <h3>Visibility</h3>
-        <h1>{datoshora.list[0].visibility} miles</h1>
+        <h1>{datoshora.list[0].visibility /10} miles</h1>
       </div>
      
     </>
