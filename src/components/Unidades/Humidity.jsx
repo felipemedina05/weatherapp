@@ -1,10 +1,16 @@
-/* import Barrap from "./BarraP"; */
-/* import ProgressBar from "react-bootstrap/ProgressBar"; */
 
-import BarraProgreso from "./barraprogreso";
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 function Humidity({ datoshora }) {
  const humidity = datoshora.list[0].main.humidity
+
+
+ function BarraProgreso({humidity}) {
+   
+   return <ProgressBar now={humidity} label={`${humidity}%`} />;
+ }
+ 
+
 
   return (
     <>
