@@ -33,6 +33,7 @@ function Card({ datos,handleclik,handlesubmit }) {
         <div className="fecha">
           <Fecha></Fecha> 
           
+
         </div>
 
         <div className="ciudad">
